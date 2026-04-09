@@ -8,39 +8,6 @@
 
 
     <!DOCTYPE html>
-<html lang="he">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>כריסטיאנו רונאלדו</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        h1 {
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 10px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        section {
-            margin-bottom: 30px;
-        }
-        p {
-            margin: 8px 0;
-        }
-    </style>
-</head>
-<body>
 
     <h1>כריסטיאנו רונאלדו דוס סנטוס אווליירה</h1>
 
@@ -81,9 +48,19 @@
             <li>זכיות בטורנירי גביע עם הנבחרת הפורטוגלית</li>
         </ul>
     </section>
+    <section>
+    <h2>תמונות וקישורים</h2>
+    <p>כאן ניתן לראות תמונות של כריסטיאנו רונאלדו במהלך הקריירה שלו:</p>
+    
+    <!-- שתי תמונות -->
+    <img src="images/week/Sunday.png" alt="רונאלדו מבצע בעיטה" style="max-width:45%; margin:10px; border-radius:10px;">
+    <img src="images/week/monday.png" alt="רונאלדו חוגג שער" style="max-width:45%; margin:10px; border-radius:10px;">
 
-</body>
-</html>
+    <!-- קישור חיצוני -->
+    <p>למידע נוסף על כריסטיאנו רונאלדו, בקרו באתר הרשמי שלו: 
+        <a href="https://www.cristianoronaldo.com" target="_blank">cristianoronaldo.com</a>
+    </p>
+</section>
 </asp:Content>
 
 
