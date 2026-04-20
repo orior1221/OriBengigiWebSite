@@ -85,7 +85,7 @@
     <p>למידע נוסף על כריסטיאנו רונאלדו, בקרו בוויקיפדיה: </p>
     <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">עמוד ויקיפדיה של כריסטיאנו רונאלדו</a>
 </section>
-    <img src="images/week/Tuesday.png" alt="רונאלדו" style="max-width:45%; margin:10px; border-radius:10px;">
+    <img src="images/week/Tuesday.png" alt="רונאלדו" style="max-width:24%; margin:10px; border-radius:10px;">
 <img src="images/week/Wednesday.png" alt="רונאלדו" style="max-width:45%; margin:10px; border-radius:10px;">
 </asp:Content>
 

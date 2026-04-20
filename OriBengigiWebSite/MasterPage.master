@@ -27,7 +27,7 @@
                 <a href="Default.aspx">דף הבית</a>
                 <a href="Bio.aspx">ביוגרפיה</a>
                 <a href="Stats.aspx">סטטיסטיקות</a>
-                <a href="Gallery.aspx">גלריה</a>
+                <a href="games.aspx">משחקים מרגשים</a>
             </nav>
         </header>
         
@@ -49,7 +49,7 @@
         </section>
 
         <footer>
-            <p>© כל הזכויות שמורות לאתר המעריצים של <span>כריסטיאנו רונאלדו (CR7)</span> - 2026</p>
+            <p>© כל הזכויות שמורות  <span>לאורי </span> - 2026</p>
         </footer>
         
         <asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
