@@ -40,6 +40,12 @@ header {
 .header_logo img {
     transition: transform 0.3s ease;
 }
+/* עיצוב הלוגו בצד שמאל */
+.cr7-logo {
+    float: left; /* דוחף את התמונה לשמאל */
+    width: 150px; /* גודל הלוגו - אפשר לשנות אם צריך */
+    margin: 0 0 20px 20px; /* שומר על רווח מהטקסט */
+}
 
     .header_logo img:hover {
         transform: scale(1.05);
@@ -53,6 +59,7 @@ header {
     justify-content: center;
     align-items: center;
     border-top: 1px solid rgba(255,255,255,0.3);
+
 }
 
     .main_nav a {
@@ -73,6 +80,12 @@ header {
             transform: translateY(-2px);
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
+    .main_nav .login_logout {
+        margin-right: auto;
+        border: 1px solid black;
+        padding: 5px;
+    }
+
 
 /* MAIN CONTENT */
 main {
@@ -86,7 +99,7 @@ main {
 }
 
     main h1, main h2, main h3 {
-        color: #1a1a1a;
+        color: black;
         font-weight: 900;
         border-bottom: 2px solid #FFD700;
         display: inline-block;

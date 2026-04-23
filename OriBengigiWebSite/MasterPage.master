@@ -10,7 +10,6 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
         <header>
             <section class="header_top">
                 <div class="header_date">
@@ -28,6 +27,7 @@
                 <a href="Bio.aspx">ביוגרפיה</a>
                 <a href="Stats.aspx">סטטיסטיקות</a>
                 <a href="games.aspx">משחקים מרגשים</a>
+                <a class="login_logout" ID="LoginLogout" runat="server"></a>		
             </nav>
         </header>
         
@@ -51,9 +51,7 @@
         <footer>
             <p>© כל הזכויות שמורות  <span>לאורי </span> - 2026</p>
         </footer>
-        
         <asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
         </asp:ContentPlaceHolder>
-    </form>
 </body>
 </html>
