@@ -25,7 +25,7 @@
             <nav class="main_nav">    
                 <a href="Default.aspx">דף הבית</a>
                 <a href="Bio.aspx">ביוגרפיה</a>
-                <a href="Stats.aspx">סטטיסטיקות</a>
+                <a href="Stats.aspx" id="boss" runat="server">סטטיסטיקות</a>
                 <a href="games.aspx">משחקים מרגשים</a>
                 <a class="login_logout" ID="LoginLogout" runat="server"></a>		
             </nav>
