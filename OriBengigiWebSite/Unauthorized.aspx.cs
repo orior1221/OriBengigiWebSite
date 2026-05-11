@@ -11,7 +11,7 @@ public partial class Unauthorized : System.Web.UI.Page
     {
         if (!(bool)Session["isLoggedIn"])
         {
-            Response.Redirect("Unauthorized.aspx");
+            Response.Redirect("Default.aspx");
         }
     }
 }

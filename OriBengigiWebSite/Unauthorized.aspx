@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
         <h2>אינך מורשה לצפות בדף זה</h2>
     <p>עליך להתחבר למערכת כדי להמשיך.</p>
-    <a href="Login.aspx">מעבר לדף התחברות</a>
+<a href="Default.aspx">מעבר לדף ראשי</a>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
 </asp:Content>

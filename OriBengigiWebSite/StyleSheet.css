@@ -224,3 +224,11 @@ footer {
 .game-desc {
     line-height: 1.6;
 }
+
+.adminTable tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.adminTable, .adminTable th, .adminTable td {
+    border: 1px solid black;
+}
