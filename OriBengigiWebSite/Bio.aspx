@@ -55,12 +55,11 @@
         </ul>
     </section>
     <section>
-    <h2>תמונות וקישורים</h2>
-    <p>כאן ניתן לראות תמונות של כריסטיאנו רונאלדו במהלך הקריירה שלו:</p>
+
     
     <!-- שתי תמונות -->
     <img src="images/week/Sunday.png" alt="רונאלדו מבצע בעיטה" style="max-width:45%; margin:10px; border-radius:10px;">
-    <img src="images/week/monday.png" alt="רונאלדו חוגג שער" style="max-width:45%; margin:10px; border-radius:10px;">
+    <img src="images/week/Monday.png" alt="רונאלדו חוגג שער" style="max-width:45%; margin:10px; border-radius:10px;">
 
     <!-- קישור חיצוני -->
     <p>למידע נוסף על כריסטיאנו רונאלדו, בקרו באתר הרשמי שלו: 

@@ -13,13 +13,23 @@ public partial class MasterPage : System.Web.UI.MasterPage
         {
             LoginLogout.HRef = "Logout.aspx";
             LoginLogout.InnerText = "שלום, " + Session["userName"] + "(לחץ ליציאה)";
+            mem.Visible = true;
             boss.Visible = true;
         }
         else
         {
             LoginLogout.HRef = "Login.aspx";
             LoginLogout.InnerText = "כניסה";
+            mem.Visible = false;
             boss.Visible = false;
+        }
+        if ((bool)Session["isAdmin"])
+        {
+            LoginLogout.HRef = "Logout.aspx";
+            LoginLogout.InnerText = "שלום, " + Session["userName"] + "(לחץ ליציאה)";
+            boss.Visible = true;
+            mem.Visible = true;
+
         }
 
         if (!IsPostBack)
